@@ -1,1 +1,50 @@
 @charset "utf-8";
+
+
+.banner{
+    position: relative;
+
+}
+
+.banner-head{
+    overflow: hidden;
+}
+
+.banner-body{
+    position: absolute;
+    bottom:1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-ul {
+    display: flex;
+    width: 400%;
+    left: 0;
+    position: relative;
+    transition-duration: .3s;
+}
+
+.banner-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-btn{
+    text-indent: -9999px;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.banner-btn:hover,.banner-btn-active
+{
+    background-color: orange;
+}
+
