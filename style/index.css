@@ -1,50 +1,130 @@
 @charset "utf-8";
 
-
-.banner{
-    position: relative;
-
+/* Banner ------------------------- */
+.banner {
+  position: relative;
 }
 
-.banner-head{
-    overflow: hidden;
+.banner-head {
+  overflow: hidden;
 }
 
-.banner-body{
-    position: absolute;
-    bottom:1rem;
-    width: 100%;
-    text-align: center;
+.banner-body {
+  position: absolute;
+  bottom: 1rem;
+  /* background-color: pink; */
+  width: 100%;
+  text-align: center;
 }
 
 .banner-ul {
-    display: flex;
-    width: 400%;
-    left: 0;
-    position: relative;
-    transition-duration: .3s;
+  display: flex;
+  width: 400%;
+  left: 0;
+  position: relative;
+  transition-duration: .3s;
 }
 
-.banner-img{
-    max-width: 100%;
-    height: auto;
+.banner-img {
+  max-width: 100%;
+  height: auto;
 }
 
-.banner-btn{
-    text-indent: -9999px;
-    width: 1rem;
-    height: 1rem;
-    padding: 0;
-    background-color: #fff;
-    border: 0;
-    margin-left: .5rem;
-    margin-right: .5rem;
-    cursor: pointer;
-    border-radius: 50%;
+.banner-btn {
+  text-indent: -9999px;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  background-color: #fff;
+  border: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
-.banner-btn:hover,.banner-btn-active
-{
-    background-color: orange;
+.banner-btn:hover,
+.banner-btn-active {
+  background-color: orange;
 }
 
+/* Category ------------------------------ */
+.category {
+  background-image: linear-gradient(#fff, #d4b9b5);
+  border: solid 1px #f2e4e2;
+  position: relative;
+}
+
+.category-head {
+  position: absolute;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.category-imgs {
+  text-align: right;
+}
+
+.category-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-cht {
+  color: #bf7629;
+  font-size: 1.5rem;
+}
+
+.category-en {
+  display: block;
+  margin-top: 5px;
+  color: #bc938d;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.category-btn {
+  display: inline-block;
+  background-color: #ff8f00;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+.category-btn:hover {
+  opacity: .7;
+}
+
+/* News ---------------------------- */
+.news-ul {
+  list-style-type: square;
+  color: #ccc;
+  padding-left: 1.1rem;
+}
+
+.news-li {
+  line-height: 1.5;
+}
+
+.news-li + li {
+  margin-top: 1rem;
+}
+
+.news-link {
+  color: #cd8c96;
+  text-decoration: none;
+}
+
+.news-link:hover {
+  text-decoration: underline;
+}
+
+/* Hot ------------------------------ */
+.hot-body {
+  margin-top: 1rem;
+}

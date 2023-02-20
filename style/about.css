@@ -1,0 +1,154 @@
+/* Feature ------------------------------- */
+.feature {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10%;
+}
+
+.feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-reverse .feature-head {
+  margin-left: -5%;
+}
+
+.feature-reverse .feature-body {
+  margin-left: 0;
+}
+
+.feature-head {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  width: 50%;
+  box-sizing: border-box;
+  z-index: 1;
+  position: relative;
+  margin-bottom: -5%;
+}
+
+.feature-body {
+  width: 60%;
+  margin-left: -5%;
+}
+
+.feature-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+.feature-desc {
+  color: rgba(0, 0, 0, .5);
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.feature-link {
+  color: #cd8c96;
+  font-size: .9rem;
+  text-transform: capitalize;
+}
+
+.feature-link:hover {
+  text-decoration: none;
+}
+
+/* Article ---------------------------------- */
+
+.article-title-lg {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.article-quote {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(0,0,0,.5);
+  position: relative;
+}
+
+.article .fa-quote-left,
+.article .fa-quote-right {
+  color: #eee;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.article .fa-quote-left {
+  top: -1rem;
+  left: 15%;
+}
+
+.article .fa-quote-right {
+  bottom: -1rem;
+  right: 15%;
+}
+
+.article-title-lg {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(0,0,0,.5);
+  text-decoration: underline wavy #cd8c96;
+}
+
+.article-title-sm {
+  font-size: 1.1rem;
+  list-style-type: square;
+  display: list-item;
+  margin-left: 1.2rem;
+  color: rgba(0, 0, 0, .5);
+}
+
+.article-desc {
+  line-height: 1.5;
+  margin-left: 1.2rem;
+  margin-top: 1rem;
+}
+
+
+/* Details------------------------ */
+
+.details{}
+
+.detail + .detail {
+  margin-top: 1rem;
+}
+
+.detail-head{
+  display: block;
+  line-height: 1.8;
+  cursor: pointer;
+}
+
+.detail-body{
+  padding-top: .5rem;
+  border-top: 1px solid rgba(0,0,0,.1 );
+}
+
+.detail-title{
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #ff8f00;
+}
+
+.detail-date{
+  color: rgba(0, 0, 0, .5);
+  margin-left: 1rem;
+}
+
+.detail-desc{
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.detail-img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
