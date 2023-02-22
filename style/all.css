@@ -6,7 +6,7 @@ body {
   background-color: #eadcda;
 }
 
-img {
+img, iframe {
   vertical-align: bottom;
 }
 
@@ -427,12 +427,14 @@ img {
   text-transform: capitalize;
 }
 
-.subnav-li-active > .subnav-link {
+.subnav-li-active > .subnav-link ,.subnav-child-li-active{
   background-color: #cd8c96;
 }
 
 .subnav-li-active > .subnav-link > .subnav-cht,
-.subnav-li-active > .subnav-link > .subnav-en {
+.subnav-li-active > .subnav-link > .subnav-en,
+.subnav-child-li-active .subnav-en,
+.subnav-child-li-active .subnav-cht{
   color: #fff;
 }
 

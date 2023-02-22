@@ -28,3 +28,136 @@
 .box-hover:hover .box-head{
     display: none;
 }
+
+
+/* Content------------------ */
+
+.content-item:last-child{
+    margin-top: 2rem;
+}
+
+
+/* Commodity -------------------------- */
+.commodity {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .commodity-head, .commodity-body {
+    width: 50%;
+  }
+  
+  .commodity-head {
+    margin-left: 2rem;
+  }
+  
+  .commodity-title {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .commodity-cht {
+    color: #bc938d;
+    font-size: 1.4rem;
+  }
+  
+  .commodity-en {
+    color: #999;
+    margin-left: .5rem;
+  }
+  
+  .commodity-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .commodity-thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+  
+  .commodity-thumbnail .commodity-img {
+    max-width: 25%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    box-sizing: border-box;
+  }
+  
+  .commodity-thumbnail .commodity-img:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .commodity-desc {
+    line-height: 1.5;
+  }
+  
+  .commodity-desc+.commodity-desc {
+    margin-top: 1rem;
+  }
+  
+  .commodity-li {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: solid 1px #f2e4e2;
+  }
+  
+  .commodity-cost, .commodity-sale {
+    display: inline;
+  }
+  
+  .commodity-cost {
+    margin-left: 0.5rem;
+    color: #999;
+  }
+  
+  .commodity-sale {
+    padding: .3rem 1rem;
+    color: #fff;
+    background-color: #cd8c96;
+  }
+
+
+  /* Tab-------------------- */
+.tab-ul {
+    display: flex;
+}
+
+.tab-li{
+    background-color: #f6f6f6;
+    padding: .7rem 1rem;
+    border: solid 1px transparent;
+    cursor: pointer;
+}
+
+.tab-li-active{
+    background-color: #fff;
+    color: #bc938d;
+    border-color: #f2e4e2;
+    border-bottom: none;
+    position: relative;
+    z-index: 2;
+}
+
+.tab-container{
+    border: solid 1px #f2e4e2;
+    padding: .7rem 1rem;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content:first-child{
+    display: block;
+}
+
+.tab-content p +p{
+    margin-top: 1rem;
+}
